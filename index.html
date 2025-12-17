@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maycol R. Quispe C. | Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-code"></i>
+                <span>MRC</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active"><i class="fas fa-home"></i></a>
+                <a href="#about" class="nav-link"><i class="fas fa-user"></i></a>
+                <a href="#projects" class="nav-link"><i class="fas fa-briefcase"></i></a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Theme Toggle -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round">
+                <div class="icon sun"><i class="fas fa-sun"></i></div>
+                <div class="icon moon"><i class="fas fa-moon"></i></div>
+            </div>
+        </label>
+        <span class="theme-text">Modo Claro</span>
+        <div class="theme-audio-indicator">
+            <i class="fas fa-volume-up"></i>
+        </div>
+    </div>
+
+    <!-- Main Card with Enhanced Design -->
+    <div class="card-container">
+        <!-- Glow Effect -->
+        <div class="card-glow"></div>
+        
+        <!-- Profile Card -->
+        <div class="card" id="home">
+            <!-- Profile Header -->
+            <div class="card-header">
+                <div class="badge-container">
+                    <span class="badge badge-available">
+                        <i class="fas fa-circle"></i> Disponible para proyectos
+                    </span>
+                    <span class="badge badge-time">
+                        <i class="fas fa-clock"></i> GMT-5
+                    </span>
+                </div>
+            </div>
+            
+            <!-- Avatar with Hover Effect -->
+            <div class="avatar-container">
+                <div class="avatar-ring">
+                    <div class="avatar-ring-inner"></div>
+                </div>
+                <img src="https://i.postimg.cc/0ySy30c8/80d1958e-5268-4711-81fa-596d9f43917b.jpg" alt="Maycol R. Quispe C." class="avatar">
+                <div class="avatar-status"></div>
+                <div class="avatar-hover">
+                    <i class="fas fa-camera"></i>
+                </div>
+            </div>
+            
+            <!-- Profile Info -->
+            <div class="profile-info">
+                <h1 class="profile-name">Maycol R. Quispe C.</h1>
+                <p class="role">
+                    <i class="fas fa-laptop-code"></i>
+                    Frontend Developer
+                </p>
+                
+                <!-- Skills Tags -->
+                <div class="skills-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">React</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+                
+                <!-- Bio -->
+                <p class="desc">
+                    <i class="fas fa-quote-left"></i>
+                    Apasionado por el código limpio, diseño centrado en el usuario 
+                    y experiencias web excepcionales. Siempre aprendiendo y creando.
+                    <i class="fas fa-quote-right"></i>
+                </p>
+                
+                <!-- Stats -->
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Años Exp.</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfacción</span>
+                    </div>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Portfolio">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+                
+                <!-- Action Buttons -->
+                <div class="buttons">
+                    <button class="btn btn-primary" id="hireBtn">
+                        <i class="fas fa-briefcase"></i>
+                        Contratar
+                    </button>
+                    <button class="btn btn-outline" id="messageBtn">
+                        <i class="fas fa-comment-dots"></i>
+                        Mensaje
+                    </button>
+                    <button class="btn btn-icon" id="moreBtn" title="Más opciones">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                </div>
+                
+                <!-- Quick Actions -->
+                <div class="quick-actions">
+                    <button class="quick-action" id="downloadCV">
+                        <i class="fas fa-download"></i>
+                        <span>CV</span>
+                    </button>
+                    <button class="quick-action" id="copyEmail">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </button>
+                    <button class="quick-action" id="shareProfile">
+                        <i class="fas fa-share-alt"></i>
+                        <span>Compartir</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Time & Date Widget -->
+        <div class="widget time-widget">
+            <div class="widget-header">
+                <i class="fas fa-clock"></i>
+                <span>Zona Horaria</span>
+            </div>
+            <div class="widget-content">
+                <div class="time-display" id="currentTime"></div>
+                <div class="date-display" id="currentDate"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container"></div>
+
+    <!-- Sound Effect -->
+    <audio id="themeSound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-unlock-game-notification-253.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Particles.js CDN -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- App Script -->
+    <script src="app.js"></script>
+</body>
+</html>
